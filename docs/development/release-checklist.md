@@ -53,7 +53,7 @@ After the release of a new minor version, generate a new demo data snapshot comp
 
 ### Notify netpoint-docker Project of Any Relevant Changes
 
-Notify the [`netpoint-docker`](https://github.com/khulnasoft/netpoint-docker) maintainers (in **#netpoint-docker**) of any changes that may be relevant to their build process, including:
+Notify the [`netpoint-docker`](https://github.com/khulnasoft/netpoint/netpoint-docker) maintainers (in **#netpoint-docker**) of any changes that may be relevant to their build process, including:
 
 * Significant changes to `upgrade.sh`
 * Increases in minimum versions for service dependencies (PostgreSQL, Redis, etc.)

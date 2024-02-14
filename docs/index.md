@@ -51,5 +51,5 @@ NetPoint is built on the enormously popular [Django](http://www.djangoproject.co
 
 * Try out our [public demo](https://demo.netpoint.dev/) if you want to jump right in
 * The [installation guide](./installation/index.md) will help you get your own deployment up and running
-* Or try the community [Docker image](https://github.com/khulnasoft/netpoint-docker) for a low-touch approach
+* Or try the community [Docker image](https://github.com/khulnasoft/netpoint/netpoint-docker) for a low-touch approach
 * [NetPoint Cloud](https://netpointlabs.com/netpoint-cloud) is a managed solution offered by [NetPoint Labs](https://netpointlabs.com/)
