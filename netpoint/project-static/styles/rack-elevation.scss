@@ -48,7 +48,8 @@ svg {
     visibility: hidden;
   }
 
-  rect.shaded, image.shaded {
+  rect.shaded,
+  image.shaded {
     opacity: 25%;
   }
   text.shaded {
