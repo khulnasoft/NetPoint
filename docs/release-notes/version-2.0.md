@@ -229,4 +229,4 @@ From beta3:
 
 * The Module DCIM model has been renamed to InventoryItem to better reflect its intended function, and to make room for work on [#824](https://github.com/khulnasoft/netpoint/issues/824).
 * Redundant portions of the admin UI have been removed ([#973](https://github.com/khulnasoft/netpoint/issues/973)).
-* The Docker build components have been moved into [their own repository](https://github.com/khulnasoft/netpoint-docker).
+* The Docker build components have been moved into [their own repository](https://github.com/khulnasoft/netpoint/netpoint-docker).
