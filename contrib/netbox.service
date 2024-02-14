@@ -1,0 +1,22 @@
+[Unit]
+Description=NetPoint WSGI Service
+Documentation=https://docs.netpoint.dev/
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+User=netpoint
+Group=netpoint
+PIDFile=/var/tmp/netpoint.pid
+WorkingDirectory=/opt/netpoint
+
+ExecStart=/opt/netpoint/venv/bin/gunicorn --pid /var/tmp/netpoint.pid --pythonpath /opt/netpoint/netpoint --config /opt/netpoint/gunicorn.py netpoint.wsgi
+
+Restart=on-failure
+RestartSec=30
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

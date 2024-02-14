@@ -1,0 +1,17 @@
+[Unit]
+Description=NetPoint Housekeeping Service
+Documentation=https://docs.netpoint.dev/
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+User=netpoint
+Group=netpoint
+WorkingDirectory=/opt/netpoint
+
+ExecStart=/opt/netpoint/venv/bin/python /opt/netpoint/netpoint/manage.py housekeeping
+
+[Install]
+WantedBy=multi-user.target

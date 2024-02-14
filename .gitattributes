@@ -1,0 +1,5 @@
+*.sh text eol=lf
+# Treat compiled JS/CSS files as binary, as they're not meant to be human-readable
+netpoint/project-static/dist/*.css binary
+netpoint/project-static/dist/*.js binary
+netpoint/project-static/dist/*.js.map binary
